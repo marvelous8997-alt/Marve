@@ -1,0 +1,42 @@
+
+# Dependencies
+node_modules/
+
+# Environment files - never commit secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads and user files
+uploads/
+storage/
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+
+# OS files
+.DS_Store
+Thumbs.db

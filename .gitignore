@@ -1,0 +1,23 @@
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Private keys
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
